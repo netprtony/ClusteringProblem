@@ -61,7 +61,7 @@ def dp_clustering(points, k):
 def create_map(points, labels, title):
     center = [10.853550054039346, 106.60066348996047]  
     m = folium.Map(location=center, zoom_start=12)
-    colors = ['red', 'blue', 'green', 'purple', 'orange', 'darkred', 'lightblue', 'pink', 'gray', 'black']
+    colors = ['red', 'blue', 'green', 'purple', 'orange', 'darkred', 'lightblue', 'gray', 'black', 'lightgreen', 'beige', 'darkblue', 'darkgreen', 'cadetblue', 'darkpurple', 'lightgray']
     
     for i, (lat, lon) in enumerate(points):
         folium.CircleMarker(
